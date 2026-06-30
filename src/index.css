@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-darkBg: #050505;
+  --color-darkCard: #121212;
+  
+  --color-primary-light: #D97706;
+  --color-primary-dark: #F59E0B;
+  --color-primary: #F59E0B;
+  
+  --color-accent-light: #E11D48;
+  --color-accent-dark: #F43F5E;
+  --color-accent: #F43F5E;
+  
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  
+  --color-lightBg: #FAFAF9;
+  --color-lightCard: #F5F5F4;
+  
+  --font-sans: 'Outfit', 'Inter', 'sans-serif';
+  
+  --shadow-premium-dark: 0 4px 30px rgba(0, 0, 0, 0.4);
+  --shadow-premium-light: 0 4px 30px rgba(245, 158, 11, 0.05);
+  --shadow-glow-purple: 0 0 20px rgba(244, 63, 94, 0.15);
+  --shadow-glow-indigo: 0 0 20px rgba(245, 158, 11, 0.15);
+  
+  --animate-gradient-x: gradient-x 15s ease infinite;
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  
+  @keyframes gradient-x {
+    0%, 100% { background-position: left center; }
+    50% { background-position: right center; }
+  }
+}
+
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 9999px;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Glassmorphism templates */
+@utility glass-panel-dark {
+  background: rgba(18, 18, 18, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@utility glass-panel-light {
+  background: rgba(248, 250, 252, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+@utility glow-btn-purple {
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(90deg, #F59E0B, #F43F5E);
+    border-radius: inherit;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+/* Radial ambient lighting effects */
+@utility radial-mesh {
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(0,0%,0%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(38,92%,50%,0.15) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(350,89%,60%,0.1) 0, transparent 40%);
+}
+
+@utility radial-mesh-light {
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(24,20%,98%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(38,92%,50%,0.04) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(350,89%,60%,0.03) 0, transparent 40%);
+}

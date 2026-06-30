@@ -1,0 +1,42 @@
+[
+  {
+    "id": "use-1782837013168-417",
+    "_id": "use-1782837013168-103",
+    "createdAt": "2026-06-30T16:30:13.168Z",
+    "name": "narmadha",
+    "email": "nar@gmail.com",
+    "password": "$2a$10$dCBctel/Jww86q6PGZMYKOD0rPNd0ily7MogZlnBs2u3SSQlyEsom",
+    "learningCredits": 25,
+    "knowledgeScore": 10,
+    "contributionScore": 0,
+    "learningStreak": 1,
+    "skills": [
+      "General Learning"
+    ],
+    "achievements": [
+      {
+        "id": "ach-onboarding",
+        "title": "Genesis Learner",
+        "description": "Completed onboarding and received 50 starter LC",
+        "icon": "Award"
+      }
+    ],
+    "enrolledCourses": [
+      {
+        "courseId": "course-3",
+        "currentModuleIndex": 0,
+        "completedModules": [],
+        "quizScores": {},
+        "completed": false,
+        "unlockedAt": "2026-06-30T16:35:08.568Z"
+      }
+    ],
+    "createdCourses": [],
+    "settings": {
+      "darkMode": true,
+      "notifications": true,
+      "privacy": "public"
+    },
+    "updatedAt": "2026-06-30T16:35:08.570Z"
+  }
+]

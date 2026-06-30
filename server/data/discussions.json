@@ -1,0 +1,40 @@
+[
+  {
+    "id": "d-1",
+    "courseId": "course-1",
+    "title": "How is the dynamic SkillScore computed?",
+    "body": "I noticed course rankings use SkillScore instead of simple 5-star ratings. Does anyone know the exact weights used for completion rate vs mentor rating?",
+    "author": {
+      "name": "Sasha Gray",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "rank": "Learner"
+    },
+    "answers": [
+      {
+        "id": "a-1",
+        "body": "According to the architect, SkillScore is computed dynamically by multiplying Completion Rate (35%), Mentor Trust / Verification (25%), Student Ratings (20%), Quiz Success (10%), and freshness/demand metrics. This stops mentors from inflating ratings through fake accounts.",
+        "author": {
+          "name": "Sophia Vance",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+          "rank": "Verified Mentor"
+        },
+        "helpfulCount": 8,
+        "rewarded": true
+      }
+    ],
+    "createdAt": "2026-06-27T13:49:04.274Z"
+  },
+  {
+    "id": "d-2",
+    "courseId": "course-2",
+    "title": "Dead-letter exchange setup in RabbitMQ",
+    "body": "What is the best practice for configuring a dead-letter exchange (DLX) for message retry timeouts? Should retries have their own separate backoff queues?",
+    "author": {
+      "name": "Alex Rivera",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+      "rank": "Systems Engineer"
+    },
+    "answers": [],
+    "createdAt": "2026-06-28T08:49:04.274Z"
+  }
+]

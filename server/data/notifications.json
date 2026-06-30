@@ -1,0 +1,23 @@
+[
+  {
+    "id": "not-1782837013192-101",
+    "_id": "not-1782837013193-877",
+    "createdAt": "2026-06-30T16:30:13.193Z",
+    "userId": "use-1782837013168-417",
+    "title": "Welcome to SkillSwap!",
+    "message": "You have received 50 Starter Learning Credits (LC). Spend them to unlock your first course!",
+    "type": "credit",
+    "read": true,
+    "updatedAt": "2026-06-30T16:34:06.904Z"
+  },
+  {
+    "id": "not-1782837308578-260",
+    "_id": "not-1782837308578-530",
+    "createdAt": "2026-06-30T16:35:08.578Z",
+    "userId": "use-1782837013168-417",
+    "title": "Course Unlocked",
+    "message": "You spent 25 LC to unlock \"UX Psychology & Cognitive Load Design\". Start learning now!",
+    "type": "credit",
+    "read": false
+  }
+]

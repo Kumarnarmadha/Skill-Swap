@@ -19,5 +19,80 @@
     "message": "You spent 25 LC to unlock \"UX Psychology & Cognitive Load Design\". Start learning now!",
     "type": "credit",
     "read": false
+  },
+  {
+    "id": "not-1782916246144-663",
+    "_id": "not-1782916246145-823",
+    "createdAt": "2026-07-01T14:30:46.145Z",
+    "userId": "use-1782837013168-417",
+    "title": "Learning Credits Earned!",
+    "message": "You earned +3 LC for passing the \"Hick's Law & Reducing Choice Overhead\" quiz!",
+    "type": "credit",
+    "read": false
+  },
+  {
+    "id": "not-1782916261244-389",
+    "_id": "not-1782916261244-307",
+    "createdAt": "2026-07-01T14:31:01.244Z",
+    "userId": "use-1782837013168-417",
+    "title": "Course Mastered!",
+    "message": "Mastery certificate unlocked for \"UX Psychology & Cognitive Load Design\". Eearned +10 LC completion reward.",
+    "type": "credit",
+    "read": false
+  },
+  {
+    "id": "not-1782969373810-335",
+    "_id": "not-1782969373810-557",
+    "createdAt": "2026-07-02T05:16:13.810Z",
+    "userId": "use-1782969373802-982",
+    "title": "Welcome to SkillSwap!",
+    "message": "You have received 50 Starter Learning Credits (LC). Spend them to unlock your first course!",
+    "type": "credit",
+    "read": true,
+    "updatedAt": "2026-07-02T05:18:36.045Z"
+  },
+  {
+    "id": "not-1782969424036-207",
+    "_id": "not-1782969424036-15",
+    "createdAt": "2026-07-02T05:17:04.036Z",
+    "userId": "use-1782969373802-982",
+    "title": "Course Unlocked",
+    "message": "You spent 15 LC to unlock \"Introduction to Knowledge Tokenomics\". Start learning now!",
+    "type": "credit",
+    "read": true,
+    "updatedAt": "2026-07-02T05:18:36.056Z"
+  },
+  {
+    "id": "not-1782969450719-194",
+    "_id": "not-1782969450719-936",
+    "createdAt": "2026-07-02T05:17:30.719Z",
+    "userId": "use-1782969373802-982",
+    "title": "Learning Credits Earned!",
+    "message": "You earned +3 LC for passing the \"The Philosophy of Knowledge Currency\" quiz!",
+    "type": "credit",
+    "read": true,
+    "updatedAt": "2026-07-02T05:18:36.065Z"
+  },
+  {
+    "id": "not-1782969469369-214",
+    "_id": "not-1782969469369-72",
+    "createdAt": "2026-07-02T05:17:49.369Z",
+    "userId": "use-1782969373802-982",
+    "title": "Learning Credits Earned!",
+    "message": "You earned +3 LC for passing the \"Earning vs Spending Learning Credits (LC)\" quiz!",
+    "type": "credit",
+    "read": true,
+    "updatedAt": "2026-07-02T05:18:36.072Z"
+  },
+  {
+    "id": "not-1782969481130-557",
+    "_id": "not-1782969481130-218",
+    "createdAt": "2026-07-02T05:18:01.130Z",
+    "userId": "use-1782969373802-982",
+    "title": "Course Mastered!",
+    "message": "Mastery certificate unlocked for \"Introduction to Knowledge Tokenomics\". Eearned +10 LC completion reward.",
+    "type": "credit",
+    "read": true,
+    "updatedAt": "2026-07-02T05:18:36.078Z"
   }
 ]

@@ -6,8 +6,8 @@
     "name": "narmadha",
     "email": "nar@gmail.com",
     "password": "$2a$10$dCBctel/Jww86q6PGZMYKOD0rPNd0ily7MogZlnBs2u3SSQlyEsom",
-    "learningCredits": 25,
-    "knowledgeScore": 10,
+    "learningCredits": 38,
+    "knowledgeScore": 40,
     "contributionScore": 0,
     "learningStreak": 1,
     "skills": [
@@ -19,16 +19,27 @@
         "title": "Genesis Learner",
         "description": "Completed onboarding and received 50 starter LC",
         "icon": "Award"
+      },
+      {
+        "id": "ach-first-complete",
+        "title": "Paradigm Shift",
+        "description": "Successfully completed your first full knowledge course",
+        "icon": "Award"
       }
     ],
     "enrolledCourses": [
       {
         "courseId": "course-3",
         "currentModuleIndex": 0,
-        "completedModules": [],
-        "quizScores": {},
-        "completed": false,
-        "unlockedAt": "2026-06-30T16:35:08.568Z"
+        "completedModules": [
+          "m3-1"
+        ],
+        "quizScores": {
+          "m3-1": 100
+        },
+        "completed": true,
+        "unlockedAt": "2026-06-30T16:35:08.568Z",
+        "completedAt": "2026-07-01T14:31:01.235Z"
       }
     ],
     "createdCourses": [],
@@ -37,6 +48,59 @@
       "notifications": true,
       "privacy": "public"
     },
-    "updatedAt": "2026-06-30T16:35:08.570Z"
+    "updatedAt": "2026-07-01T14:31:01.238Z"
+  },
+  {
+    "id": "use-1782969373802-982",
+    "_id": "use-1782969373802-484",
+    "createdAt": "2026-07-02T05:16:13.802Z",
+    "name": "Niranjan",
+    "email": "n@gmail.com",
+    "password": "$2a$10$sCUwVFDMx/rJdOgygsSHVOHYUbC6kA0ZYrBuWGPqlnfs3iGrIH/Eq",
+    "learningCredits": 51,
+    "knowledgeScore": 45,
+    "contributionScore": 0,
+    "learningStreak": 1,
+    "skills": [
+      "General Learning"
+    ],
+    "achievements": [
+      {
+        "id": "ach-onboarding",
+        "title": "Genesis Learner",
+        "description": "Completed onboarding and received 50 starter LC",
+        "icon": "Award"
+      },
+      {
+        "id": "ach-first-complete",
+        "title": "Paradigm Shift",
+        "description": "Successfully completed your first full knowledge course",
+        "icon": "Award"
+      }
+    ],
+    "enrolledCourses": [
+      {
+        "courseId": "course-1",
+        "currentModuleIndex": 1,
+        "completedModules": [
+          "m1-1",
+          "m1-2"
+        ],
+        "quizScores": {
+          "m1-1": 100,
+          "m1-2": 100
+        },
+        "completed": true,
+        "unlockedAt": "2026-07-02T05:17:04.026Z",
+        "completedAt": "2026-07-02T05:18:01.120Z"
+      }
+    ],
+    "createdCourses": [],
+    "settings": {
+      "darkMode": true,
+      "notifications": true,
+      "privacy": "public"
+    },
+    "updatedAt": "2026-07-02T05:18:01.123Z"
   }
 ]

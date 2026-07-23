@@ -3,7 +3,13 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API_URL = import.meta.env.VITE_API_URL || '/api';
+let API_URL = import.meta.env.VITE_API_URL || '/api';
+if (import.meta.env.VITE_API_URL && !API_URL.endsWith('/api')) {
+  if (API_URL.endsWith('/')) {
+    API_URL = API_URL.slice(0, -1);
+  }
+  API_URL = `${API_URL}/api`;
+}
 
 // Create configured Axios instance
 export const api = axios.create({

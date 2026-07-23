@@ -57,7 +57,7 @@
     "name": "Niranjan",
     "email": "n@gmail.com",
     "password": "$2a$10$sCUwVFDMx/rJdOgygsSHVOHYUbC6kA0ZYrBuWGPqlnfs3iGrIH/Eq",
-    "learningCredits": 51,
+    "learningCredits": 26,
     "knowledgeScore": 45,
     "contributionScore": 0,
     "learningStreak": 1,
@@ -93,6 +93,14 @@
         "completed": true,
         "unlockedAt": "2026-07-02T05:17:04.026Z",
         "completedAt": "2026-07-02T05:18:01.120Z"
+      },
+      {
+        "courseId": "course-3",
+        "currentModuleIndex": 0,
+        "completedModules": [],
+        "quizScores": {},
+        "completed": false,
+        "unlockedAt": "2026-07-02T05:50:06.093Z"
       }
     ],
     "createdCourses": [],
@@ -101,6 +109,36 @@
       "notifications": true,
       "privacy": "public"
     },
-    "updatedAt": "2026-07-02T05:18:01.123Z"
+    "updatedAt": "2026-07-02T05:50:06.097Z"
+  },
+  {
+    "id": "use-1782971519831-764",
+    "_id": "use-1782971519831-562",
+    "createdAt": "2026-07-02T05:51:59.831Z",
+    "name": "sharnitha",
+    "email": "sharni@gmail.com",
+    "password": "$2a$10$GNWpv5waxdXTjt7KlxUzb.7gMMw3P4KUsELdmWZGYyzOFnzyWmSm2",
+    "learningCredits": 50,
+    "knowledgeScore": 10,
+    "contributionScore": 0,
+    "learningStreak": 1,
+    "skills": [
+      "General Learning"
+    ],
+    "achievements": [
+      {
+        "id": "ach-onboarding",
+        "title": "Genesis Learner",
+        "description": "Completed onboarding and received 50 starter LC",
+        "icon": "Award"
+      }
+    ],
+    "enrolledCourses": [],
+    "createdCourses": [],
+    "settings": {
+      "darkMode": true,
+      "notifications": true,
+      "privacy": "public"
+    }
   }
 ]
